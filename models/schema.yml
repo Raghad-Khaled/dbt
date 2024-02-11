@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: football
+    # database: dbname/project, uses project database if not specified
+    schema: "public"
+    description: Data loaded From Source Systems
+    tables:
+      - name: raw_customers
+        description: 'customer table'
+      - name: raw_orders
+        description: 'orders table'
+      - name: raw_payments
+        description: 'payment table'
+
+      
